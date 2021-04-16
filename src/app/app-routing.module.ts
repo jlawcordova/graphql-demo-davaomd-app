@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DoctorProfileComponent } from './doctor-profile/doctor-profile.component';
+import { DoctorProfilePageComponent } from './features/doctor-profile/doctor-profile-page/doctor-profile-page.component';
 
 const routes: Routes = [
   {
     path: 'doctor-profile',
-    component: DoctorProfileComponent
+    component: DoctorProfilePageComponent
   }
 ];
 

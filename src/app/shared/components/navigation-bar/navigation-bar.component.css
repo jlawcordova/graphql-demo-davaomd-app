@@ -4,14 +4,12 @@ a {
 }
 
 nav {
-    --nav-y-margin: 1rem;
-
     display: flex;
     align-items: center;
 
-    border-bottom: 1px solid var(--neutral-subtle-color);
+    border-bottom: 1px solid var(--surface-color);
 
-    padding: var(--nav-y-margin) var(--layout-x-margin);
+    padding: 1rem var(--layout-x-margin);
 }
 
 .menu {
@@ -27,12 +25,12 @@ nav {
     left: 0;
     width: 100%;
 
-    margin-top: calc(var(--nav-y-margin)/2);
+    margin-top: 0.6rem;
 
     display: flex;
     justify-content: center;
 
-    font-family: var(--headline-font-family);
+    font-family: var(--accent-font-family);
     font-size: 1.5rem;
 }
 

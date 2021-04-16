@@ -1,0 +1,8 @@
+<div class="ratings">
+    <div class="stars">
+        <i *ngFor="let item of [].constructor(filledStars || 0); let i = index" class="star bi bi-star-fill"></i>
+        <i *ngFor="let item of [].constructor(halfStar || 0); let i = index" class="star bi bi-star-half"></i>
+        <i *ngFor="let item of [].constructor(emptyStars || 0); let i = index" class="star bi bi-star"></i>
+    </div>
+    <span>{{rating?.count || 0}} rating{{(rating?.count || 0) > 1 ? "s" : ""}}</span>
+</div>

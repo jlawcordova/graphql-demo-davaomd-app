@@ -3,18 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DoctorProfileComponent } from './doctor-profile/doctor-profile.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { FeaturesModule } from './features/features.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DoctorProfileComponent,
-    NavigationBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
+    FeaturesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,27 @@
+.doctor-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo {
+    filter: blur(0px) brightness(100%) contrast(100%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+
+    width: 5rem;
+    height: 5rem;
+
+    border-radius: 100%;
+}
+
+.subheading {
+    font-size: var(--subtitle-font-size);
+    font-style: italic;
+    font-weight: 500;
+
+    color: var(--on-background-light-color);
+}
+
+app-ratings {
+    margin-top: 0.5rem;
+}

@@ -5,14 +5,33 @@
     --layout-x-margin: 1rem;
 
     --primary-color: #357DED;
-    --neutral-dark-color: #001524;
-    --neutral-subtle-color: #EFEFEF;
+    --surface-color: #EFEFEF;
+    --on-background-color: #001524;
+    --on-background-light-color: #001524ce;
 
-    --headline-font-family: 'Abril Fatface', cursive;
+    --accent-font-family: 'Abril Fatface', cursive;
+    --headline-font-family: 'Noto Sans', sans-serif;
+    --body-font-family: 'Noto Sans', sans-serif;
 
-    color: var(--neutral-dark-color);
+    --headline-font-size: 1.25rem;
+    --subtitle-font-size: 0.75rem;
+
+    color: var(--on-background-color);
 }
 
 body {
+    font-family: var(--body-font-family);
+    margin: 0;
+}
+
+h1 {
+    font-family: var(--headline-font-family);
+    font-size: var(--headline-font-size);
+
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+p {
     margin: 0;
 }
