@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --layout-x-margin: 1rem;
+
+    --primary-color: #357DED;
+    --neutral-dark-color: #001524;
+    --neutral-subtle-color: #EFEFEF;
+
+    --headline-font-family: 'Abril Fatface', cursive;
+
+    color: var(--neutral-dark-color);
+}
+
+body {
+    margin: 0;
+}
