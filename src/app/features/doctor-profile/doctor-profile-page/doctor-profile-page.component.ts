@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Doctor } from 'src/core/models/doctor';
-import { Rating } from 'src/core/models/rating';
+import { Doctor } from 'src/app/models/doctor';
 
 @Component({
   selector: 'app-doctor-profile-page',

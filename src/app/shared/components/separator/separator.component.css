@@ -1,0 +1,14 @@
+.separator {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.accent {
+    border-top: 0.5rem solid var(--on-background-color);
+    flex: 1 0 0;
+}
+.subtle {
+    border-top: 0.25rem solid var(--surface-color);
+    flex: 1 0 0;
+}

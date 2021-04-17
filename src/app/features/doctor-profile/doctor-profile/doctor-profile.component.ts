@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Rating } from 'src/core/models/rating';
+import { Rating } from 'src/app/models/rating';
 
 @Component({
   selector: 'app-doctor-profile',

@@ -1,3 +1,9 @@
 .doctor-profile-page {
     margin: 2rem var(--layout-x-margin);
+    display: flex;
+    flex-direction: column;
+}
+
+app-doctor-profile {
+    margin-bottom: 1rem;
 }
