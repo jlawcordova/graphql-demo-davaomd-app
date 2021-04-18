@@ -1,0 +1,24 @@
+table {
+    background-color: var(--surface-color);
+
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+
+    font-size: var(--subtitle-font-size);
+}
+
+th {
+    vertical-align: top;
+}
+
+td {
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+
+    padding-left: 0;
+    margin: 0;
+}

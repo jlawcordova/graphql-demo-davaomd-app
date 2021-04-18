@@ -15,7 +15,33 @@ export class DoctorProfilePageComponent implements OnInit {
     rating: {
       rating: 4.5,
       count: 112
-    }
+    },
+    schedule: [
+      {
+        hospital: {
+          name: "San Pedro Hospital of Davao City, Inc.",
+          location: "Guzman St, Poblacion District, Davao City, Davao del Sur"
+        },
+        building: "Medical Arts Building (MAB) – Rm 507",
+        contactNumbers: [
+          "0910-564-0665",
+          "0910-564-0665"
+        ],
+        scheduleTime: [
+          {
+            weekDays: "Monday – Friday",
+            startTime: "10:00am",
+            endTime: "12:00pm"
+          },
+          {
+            weekDays: "Saturday",
+            startTime: "10:00am",
+            endTime: "12:00pm"
+          }
+        ]
+      }
+    ]
+      
   }
 
   constructor() { }

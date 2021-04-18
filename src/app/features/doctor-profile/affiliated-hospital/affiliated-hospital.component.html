@@ -1,0 +1,46 @@
+<h3>{{schedule?.hospital?.name}}</h3>
+<table>
+    <tbody>
+        <tr>
+            <th>
+                <i class="bi bi-clock-fill" aria-label="Schedule"></i>
+            </th>
+            <td>
+                <ul>
+                    <li *ngFor="let scheduleTimeItem of schedule?.scheduleTime">
+                        {{scheduleTimeItem.weekDays}} <time>{{scheduleTimeItem.startTime}}</time> –
+                        <time>{{scheduleTimeItem.endTime}}</time>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <i class="bi bi-building" aria-label="Building"></i>
+            </th>
+            <td>
+                {{schedule?.building}}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <i class="bi bi-geo-alt-fill" aria-label="Location"></i>
+            </th>
+            <td>
+                {{schedule?.hospital?.location}}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <i class="bi bi-telephone-fill" aria-label="Contact"></i>
+            </th>
+            <td>
+                <ul>
+                    <li *ngFor="let contactNumber of schedule?.contactNumbers">
+                        {{contactNumber}}
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>

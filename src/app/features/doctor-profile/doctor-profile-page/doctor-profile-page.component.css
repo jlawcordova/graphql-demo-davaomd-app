@@ -5,5 +5,9 @@
 }
 
 app-doctor-profile {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+app-affiliated-hospitals {
+    margin-top: 1.5rem;
 }
