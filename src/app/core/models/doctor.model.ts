@@ -1,5 +1,5 @@
-import { Rating } from "./rating";
-import { Schedule } from "./schedule";
+import { Rating } from "./rating.model";
+import { Schedule } from "./schedule.model";
 
 export interface Doctor {
     name: string;

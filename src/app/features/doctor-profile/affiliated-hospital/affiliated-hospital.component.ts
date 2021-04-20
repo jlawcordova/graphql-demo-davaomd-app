@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Schedule } from 'src/app/core/models/schedule';
+import { Schedule } from 'src/app/core/models/schedule.model';
 
 @Component({
   selector: 'app-affiliated-hospital',
