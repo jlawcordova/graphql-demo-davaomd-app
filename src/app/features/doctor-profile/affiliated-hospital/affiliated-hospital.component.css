@@ -16,6 +16,11 @@ td {
     padding-bottom: 0.5rem;
 }
 
+tr:last-child > td {
+    padding-bottom: 0rem;
+}
+
+
 ul {
     list-style-type: none;
 
