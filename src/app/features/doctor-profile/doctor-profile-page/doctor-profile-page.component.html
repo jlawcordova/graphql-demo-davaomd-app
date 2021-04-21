@@ -1,12 +1,12 @@
 <article class="doctor-profile-page" *ngIf="!loading">
     <app-doctor-profile
-        [photo]="doctor.photo"
-        [name]="doctor.name"
-        [specialty]="doctor.specialty"
-        [rating]="doctor.rating"
+        [photo]="doctor?.photo"
+        [name]="doctor?.name"
+        [specialty]="doctor?.specialty"
+        [rating]="doctor?.rating"
     ></app-doctor-profile>
     <app-separator></app-separator>
     <app-affiliated-hospitals
-        [schedule]="doctor.schedule"
+        [schedule]="doctor?.schedule"
     ></app-affiliated-hospitals>
 </article>
