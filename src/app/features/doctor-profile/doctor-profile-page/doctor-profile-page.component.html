@@ -1,4 +1,4 @@
-<article class="doctor-profile-page">
+<article class="doctor-profile-page" *ngIf="!loading">
     <app-doctor-profile
         [photo]="doctor.photo"
         [name]="doctor.name"
