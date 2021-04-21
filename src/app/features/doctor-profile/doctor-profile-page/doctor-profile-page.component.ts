@@ -12,10 +12,6 @@ export class DoctorProfilePageComponent implements OnInit {
     name: "Felicia Lao, MD",
     specialty: "Internal Medicine",
     photo: "https://randomuser.me/api/portraits/women/51.jpg",
-    rating: {
-      rating: 4.5,
-      count: 112
-    },
     schedule: [
       {
         hospital: {

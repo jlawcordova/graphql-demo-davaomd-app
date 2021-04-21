@@ -5,6 +5,6 @@ export interface Doctor {
     name: string;
     specialty: string;
     photo: string;
-    rating: Rating;
+    rating?: Rating;
     schedule: Schedule[];
 }
